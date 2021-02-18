@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  line-height: 1em;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#parent-holder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 806px;
+  background-color: #eee;
+  border-style: double;
+  box-shadow: 5px 5px 5px 5px;
+}
+#tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #eee;
+  border-style: double;
+  border-color: red;
+  padding: 5px;
+  text-align: center;
+  line-height: 1.2em;
+}
+.heading-text {
+  margin-bottom: 10px;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+#title {
+  text-align: center;
+}
